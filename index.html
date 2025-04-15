@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Is Like A Pot Of Hot Soup | Fulaneey Pero</title>
+    <meta name="description" content="A responsive web page by Fulaneey Pero.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Life Is Like A Pot Of Hot Soup</h1>
+        <img src="life in colors.jpg" alt="Inspirational quote with soup background" width="1020">
+        <p>Welcome to my responsive web page!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to My Responsive Web Page</h2>
+            <p>This is a simple example of a responsive web page using HTML and CSS.</p>
+            <p>
+                <strong>What is a Responsive Web Page?</strong><br>
+                A responsive web page is designed to automatically adjust its layout and content to look good on all screen sizes—whether it’s a desktop, tablet, or smartphone. It uses flexible grids, media queries, and fluid images to ensure the user has an optimal viewing experience without needing to zoom or scroll horizontally. Responsive design improves accessibility, user experience, and ensures your website looks professional on any device.
+            </p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a web developer learning how to create responsive designs.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email me at <a href="mailto:Fulaneey_pero@yahoo.com">Fulaneey_pero@yahoo.com</a></p>
+            <form id="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="_replyto" required>
+                </div>
+        
+                <div class="form-group">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+        
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <section id="interactivity">
+        <h2>Dynamic Interactions</h2>
+        <p id="dynamic-text">Click the button to change this text!</p>
+        <button onclick="changeText()">Change Text</button>
+    
+        <div id="style-box">I will change styles!</div>
+        <button onclick="changeStyle()">Change Style</button>
+    
+        <button onclick="toggleElement()">Add/Remove Element</button>
+        <div id="element-container"></div>
+    </section>
+    
+    <script src="script.js"></script>
+    
+
+    <footer>
+        <p>ALL RIGHTS RESERVED &copy; 2025 Fulaneey Pero. POWERED BY PLP</p>
+    </footer>
+</body>
+</html>
